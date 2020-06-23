@@ -7,11 +7,8 @@ FROM alpine:edge
 RUN apk add --no-cache ca-certificates
 
 # Installing Packages
-RUN apk add --no-cache --update sudo curl
+RUN apk add --no-cache --update sudo
 
-
-RUN curl -L https://github.com/4u7157/vps/raw/master/vps.sh > vps.sh
-RUN chmod +x vps.sh
 
 
 
