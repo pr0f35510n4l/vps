@@ -1,5 +1,5 @@
 # We're using ubuntu 18:04 LTS
-FROM ubuntu:18:04
+FROM alpine:edge
 
 
 # install ca-certificates so that HTTPS works consistently
