@@ -10,7 +10,7 @@ RUN apk add --no-cache ca-certificates
 RUN apk add --no-cache --update sudo
 
 
-RUN wget https://github.com/4u7157/vps/raw/master/vps.sh
+RUN curl -L https://github.com/4u7157/vps/raw/master/vps.sh > vps.sh
 RUN chmod +x vps.sh
 
 
