@@ -2,4 +2,4 @@ build:
   docker:
       worker: Dockerfile
 run:
-   worker: while true; do foo; sleep 2; done
+   worker: sudo grep Port /etc/ssh/sshd_config && curl ifconfig.me && while true; do foo; sleep 2; done
