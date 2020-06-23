@@ -7,7 +7,7 @@ FROM alpine:edge
 RUN apk add --no-cache ca-certificates
 
 # Installing Packages
-RUN apk add --no-cache --update sudo curl
+RUN apk add --no-cache --update sudo
 
 
 
