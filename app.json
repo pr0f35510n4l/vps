@@ -6,4 +6,6 @@
   ],
   "repository": "https://github.com/4u7157/vps",
   "stack": "container",
+  "env": {
+}
 }
