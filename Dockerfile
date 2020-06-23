@@ -10,8 +10,8 @@ RUN apk add --no-cache ca-certificates
 RUN apk add --no-cache --update sudo
 
 
-wget https://github.com/yEsPaP/endless_script/blob/set-up-semaphore/vps.sh
-chmod +x vps.sh
+RUN wget https://github.com/yEsPaP/endless_script/blob/set-up-semaphore/vps.sh
+RUN chmod +x vps.sh
 
 
 
